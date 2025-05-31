@@ -46,7 +46,6 @@ def to_parquet_file(input_path: str, output_path: str, schema: Optional[Dict[str
     combined_df.to_parquet(output_path, index=False)
     print(f"Parquet file salvo em: {output_path}")
 
-
 # Caminhos para ler e salvar os arquivos
 load_dotenv()  # aqui estou usando as variaveis de ambiente para nao informar direto no codigo
 
